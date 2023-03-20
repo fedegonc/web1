@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-image: url("img/banner.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.imagen_logos {
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#banner{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+#banner p {
+  size: 30px;
+
+}
+
+#bienvenida {
+  background-color: #f2f2f2;
+}
+
+#Testimonios {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 100px 0;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+#Testimonios img {
+  max-width: 310px;
+  max-height: 310px;
+  vertical-align: middle;
+  
+}
+
+
+
+#menu {
+  background-color: #4285F4;
+  padding: 10px 0;
+  color: white
+}
+
+#menu a {
+
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  size: 3em;
+
+
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4285F4;
+  color: white;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #4285F4;
+  padding: 50px 0;
+  color: white;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer h4 {
+  margin-top: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer hr {
+  border-top: 1px solid #ccc;
+}
